@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(160deg, #1f2a44, #101624);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1a2340;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .main-btn {
+    width: 100%;
+    background-color: #4d5ebc;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .main-btn:hover {
+    background-color: #3c49a3;
+  }
+  
+  .description {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .output {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    background: #2c3555;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+
+  .archivo-cargado {
+    font-size: 12px;
+    color: #9fb8ff;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  
+  .reset-btn {
+    background-color: transparent;
+    color: #ffffff;
+    background-color: #4d5ebc;
+    border: 1px solid #4d5ebc;
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #ffffff;
+    color: #4d5ebc;
+  }
+  

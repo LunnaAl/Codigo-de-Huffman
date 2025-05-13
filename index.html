@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Huffman App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CODIGO DE<br><span>HUFFMAN</span></h1>
+
+    <!-- Botón para seleccionar archivo -->
+    <label for="subir-txt" class="main-btn">Sube tu archivo</label>
+    <input type="file" id="subir-txt" accept=".txt" hidden />
+    <p id="archivo-cargado" class="archivo-cargado">Ningún archivo seleccionado</p>
+
+
+    <!-- Botón para procesar -->
+    <button id="boton-huffman" class="main-btn">Procesar Huffman</button>
+
+
+
+    <p class="description">Selecciona un archivo .txt para calcular el código de Huffman</p>
+
+    <div class="output">
+      <h3>Frecuencias:</h3>
+      <pre id="frecuencias"></pre>
+
+      <h3>Códigos:</h3>
+      <pre id="codigos"></pre>
+
+      <h3>Texto Comprimido:</h3>
+      <pre id="comprimido"></pre>
+    </div>
+    <button id="boton-reiniciar" class="reset-btn">Reiniciar</button>
+  </div>
+
+  <script src="huffman.js"></script>
+
+  
+
+</body>
+</html>
